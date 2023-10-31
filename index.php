@@ -17,11 +17,11 @@
 				
 			Bienvenido(a) <?php echo $_SESSION['nombre'] ?> ! <a href='CerrarSesion.php'>Cerrar sesión</a><br/>
 		<br/>
-		<a href='ver.php'>Ver y agregar productos</a>
+		<a href='ver.php'>Ver y agregar pedidos</a>
 		<br/><br/>
 	<?php	
 	} else {
-		echo "Usted debe estar conectado para ver esta página.<br/><br/>";
+		echo "Usted debe iniciar sesion para ver esta página.<br/><br/>";
 		echo "<a href='IniciarSesion.php'>Iniciar sesión</a> | <a href='registro.php'>Registrate</a>";
 	}
 	?>
