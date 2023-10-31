@@ -29,11 +29,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM pedidos WHERE login_id=".$_SESSIO
 			<td>ID cliente</td>
 			<td>Nombre cliente</td>
 			<td>Fecha pedido</td>
-			<td>id producto</td>
+			<td>ID producto</td>
 			<td>Dirección</td>
-			<td>tipo Pago</td>
-			<td>tlefono</td>
-			<td>total</td>
+			<td>Tipo Pago</td>
+			<td>Telefono</td>
+			<td>Total</td>
 		</tr>
 		<?php
 		while($res = mysqli_fetch_array($result)) {		
