@@ -21,8 +21,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM pedidos WHERE login_id=".$_SESSIO
 
 <body>
 	<a href="index.php">Inicio</a> | <a href="agregar.html">Agregar nuevos datos</a> | <a href="CerrarSesion.php">Cerrar sesión</a>
-	<br/><br/>
-	
+	<br>
+	<center><h3>TABLA PEDIDOS</h3></center>
 	<table width='80%' border=0>
 		<tr bgcolor='#CCCCCC'>
 			<td>ID Pedido</td>
